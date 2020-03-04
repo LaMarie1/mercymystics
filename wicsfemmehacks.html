@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HomePage</title>
+	<title>Femmehacks</title>
 
 	<link href="https://fonts.googleapis.com/css?family=ABeeZee|Lemonada&display=swap" rel="stylesheet">
 
-<link rel="shortcut icon" href="https://a.wattpad.com/cover/154280863-352-k471550.jpg" type="image/x-icon"/>
+<link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2017/09/07/10/25/logo-2724481_1280.png" type="image/x-icon"/>
 
 <style>
 .header{
@@ -84,34 +84,101 @@ li a:hover {
   width: 50%;
 }
 
+.txt {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 20px;
+  margin-right: 240px;
+  margin-bottom: 70px;
+}
+
+.background{
+  background-image: url('https://www.designbolts.com/wp-content/uploads/2012/12/Dust-White-Seamless-pattern-for-website-background.jpg');
+
+}
+
+   .liner{
+    color: #3399ff;
+    font-size: 40px;
+    font-family: 'ABeeZee', sans-serif;
+  }
+
+
+
 </style>
 
 </head>
 <body>
+
+  <div class = "background">
 
 	<img class="photo" src="https://cdn.pixabay.com/photo/2017/09/07/10/25/logo-2724481_1280.png" height="40px" width= "40px">
 
 <div class = "header under">Computer Science</div>
 
 <ul>
-	<li><a  href = "wicshome.html">Home</a></li>
+	<li><a  href = "index.html">Home</a></li>
 	<li><a  href = "wicswhat.html">What is Computer Science</a></li>
 	<li><a href = "wicshistory.html">History of Computer Science</a></li>
 	<li><a  href = "wicswomen.html">Women In Computer Science</a></li>
 	<li><a class = "active" href = "wicsfemmehacks.html">Femmehacks</a></li>
-
-
-	<div class="footer">
-  <div class="left"><p>Contact: lzarro20@merion-mercy.com</p></div>
-</div>
-
 </ul>
 
 
-<img src="data:image/png;base64,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" class = 'center' >
+
+<img src="https://lh3.googleusercontent.com/proxy/IhbQICkjWn-tU7yZcdpRAxovYZPeLJiTLxp31n4ExwHlycu55UbMVmrhPNVR9x-PCqcwe9qOyb4C6Tfy8kEzr_97FQ" class = 'center' style="height:150px; width:200px;">
+
+<div class = 'liner'>What is Femmehacks?</div>
+
+<div class = 'txt'>
+Femmehacks is an all female event for girls coming together and coding. It runs for two days and covers the basics of coding. The event is focused around encouraging girls to form groups with people they have not met and form groups and spend the day building a project using code. Throughout the day, there are different speakers from Penn students or from the Companies that sponsor the event and they talk about college, being a woman in the computer science field, being a student in computer science, and other topics such as that.
+</div>6
 
 
 
+
+<div class='liner' style = 'margin-top: 20px;'> Three Most Important Take Aways</div>
+
+<div class = "txt">
+ <div style="font-size: 30px">
+  <p><b>WWCD?</b></p> 
+  </div>
+
+  Have you ever found yourself apologizing for something you don't need to apologize for? Or have you ever found yourself deciding to hold back your thoughts because you think they aren't important? Before you act, think to yourself, What Would Chad Do? Would a Chad apologize for what just happened? Would Chad hold himself back from saying his opinion? As women, we sometimes feel like we should apologize for things that we don't need to apologize for and hold back our voices because we don't think it is important. This method has helped me break away from the thoughts and feelings that make me more passive. 
+
+   <div style="font-size: 30px">
+  <p><b>Don't Sell Yourself Short</b></p> 
+  </div>
+
+Women in computer science are incredibly important, but also an incredibly small margin of people. Because of this, women are very vital to schools and companies to give them diversity among colleagues. As a result, if someone feels like they are being undervalued as a person, fight for yourself, because you are a valuable asset, as well as a person.
+
+  <div style="font-size: 30px">
+      <p><b>Let Your Voice Be Heard</b></p> 
+  </div>
+
+There will be times in life where there will be people who talk over you. Don't let them. Your voice is unique and deserves to be heard. As women, we bring a different voice and perspective to the table. We do things differently than our male counterparts, and those differences should be respected and taken into consideration. Say what you need to and speak loud enough so that everyone has to hear from you. Also, don't be afraid to stand up for yourself and to talk to people in a higher-up position if you are being talked over. Make sure your voice is heard because what you have to say is important.
+
+
+<div style="width:200px; font-size:70%; text-align:center; position:relative; bottom:-20px; right:55px;">
+
+<img src ="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/86354470_2943055319083828_4278378371366256640_o.jpg?_nc_cat=108&_nc_sid=e007fa&_nc_ohc=9pqRX8B108oAX-BQEwd&_nc_ht=scontent-iad3-1.xx&oh=cb0ae18618ee162edf0f29291caaf907&oe=5E965251"style ='padding-bottom:0.5em;width:230px; height: 170px'></div>
+
+
+<div style="width:200px; font-size:70%; text-align:center; position:absolute; bottom:-220px; right:55px;">
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/86701140_2943052235750803_7423206850595651584_o.jpg?_nc_cat=103&_nc_sid=e007fa&_nc_ohc=wdnd-8IG-LIAX8JRGIF&_nc_ht=scontent-iad3-1.xx&oh=067c8d588e6209a34baac1b2c42c26e6&oe=5E843000"style ='padding-bottom:0.5em;width:230px; height: 150px'></div>
+
+
+<div style="width:200px; font-size:70%; text-align:center; position:absolute; bottom:226px; right:220px;">
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/86377345_2943052485750778_6269263830967123968_o.jpg?_nc_cat=103&_nc_sid=e007fa&_nc_ohc=r9qbYOTXEw4AX9dimPY&_nc_ht=scontent-iad3-1.xx&oh=1c0027a5c762af4693c3cb5e3bc73856&oe=5E7FF285"style ='padding-bottom:0.5em;width:270px; height: 240px'></div>
+
+  <div class="footer">
+  <div class="left"><p>Contact: lzarro20@merion-mercy.com</p></div>
+
+</div>
+
+
+
+</div>
+</div>
 </body>
 </html>
 
